@@ -1,0 +1,48 @@
+/* CSS */
+
+.general-layout {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #494843;
+  width: 1200px;
+  margin: auto;
+}
+
+.header {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+}
+
+.header__mail-menu {
+   flex: 1 1 395px;
+   display: flex;
+   padding-top: 37px;;
+}
+
+.logo {
+  flex: 2 1 395px;
+}
+
+.header__mailto {
+  flex: 1 1 198px;
+ 
+}
+
+.header__mail-link {
+  color: #494843;
+  flex: 1 1 198px;
+}
+
+.header__mail-icon {
+  margin-bottom: -3px;
+}
+
+.header__menu {
+  color: #33a0da;
+}
+
+
+
+
