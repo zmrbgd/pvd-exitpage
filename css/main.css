@@ -1,5 +1,9 @@
 /* CSS */
 
+body {
+  margin: 0px;
+}
+
 .general-layout {
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
@@ -7,14 +11,15 @@
   color: #494843;
   width: 1200px;
   margin: auto;
+  padding: 0px;
 }
 
 .header {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
   display: flex;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 26px;
+  padding-bottom: 16px;
   
 }
 
