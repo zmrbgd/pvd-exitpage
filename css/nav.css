@@ -59,3 +59,19 @@
 .nav__iconfile {
     margin-top: 3px;
 }
+
+.nav__titles {
+    display: flex;
+}
+
+.nav__title {
+    flex: 1;
+    position: relative;
+    color: #33a0da;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    letter-spacing: .5px;
+}
