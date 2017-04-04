@@ -1,6 +1,16 @@
 /* Bestellung section styles*/
 
+.sehen {
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.sehen__link {
+    position: relative;
+    top: -14px;
+    font-weight: 700;
+}
 
 
 

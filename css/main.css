@@ -4,13 +4,17 @@ body {
   margin: 0px;
 }
 
+.layout1200 {
+  width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
 .general-layout {
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #494843;
-  width: 1200px;
-  margin: auto;
   padding: 0px;
 }
 
@@ -41,6 +45,10 @@ body {
   margin-bottom: 30px;
   margin-top: 0px;
   line-height: 20px;
+}
+
+.text_last-line {
+  margin-bottom: 0px;
 }
 
 .header {
@@ -89,7 +97,16 @@ body {
 
 .premium {
   background-color: #eef9ff;
+  background-size: 100vw;
 }
+
+  .content {
+    width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+}
+
 
 
 
