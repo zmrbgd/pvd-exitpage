@@ -14,6 +14,35 @@ body {
   padding: 0px;
 }
 
+.h1 {
+  color:  #33a0da;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 35px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.h3 {
+  font-size: 1rem;
+  margin-top: 0px;
+  margin-bottom: 30px;  
+}
+
+.text {
+  margin-bottom: 30px;
+  margin-top: 0px;
+  line-height: 20px;
+}
+
 .header {
   padding-left: 8px;
   padding-right: 8px;
@@ -26,7 +55,7 @@ body {
 .header__mail-menu {
    flex: 2;
    display: flex;
-   padding-top: 37px;
+   padding-top: 41px;
 }
 
 .logo {
@@ -50,6 +79,17 @@ body {
   color: #33a0da;
 }
 
+.header__triangle {
+  display: inline-block;
+}
+
+.section_padded {
+   padding: 50px 35px 50px 35px;
+}
+
+.premium {
+  background-color: #eef9ff;
+}
 
 
 
