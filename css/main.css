@@ -83,8 +83,7 @@ body {
 .table__summ {
   position: relative;
   width: 537px;
-  margin-left: 593px;
-  align-content: right;
+  float: right;
   margin-bottom: 50px;
 }
 
@@ -119,8 +118,16 @@ body {
   margin: auto;
 }
 
-.subheading {
-  margin-top: -10px;
+.form {
+  display: flex;
+  width: 515px; 
+  justify-content: space-between;
 }
 
+.form__text {
+  flex: 1;
+}
 
+.form__label {
+  flex: 1;
+}
