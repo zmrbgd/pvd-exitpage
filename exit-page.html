@@ -4,16 +4,21 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/bestellung.css"> 
+     
+    
  
      
   </head>
 
   <body>
+    
     <div class="general-layout">
-      <header class="header layout1200">
-        <a class="logo logo_large" href="">
+      
+      <header class="header content_width1200-centered">
+         <a class="logo logo_large" href="">
           <img src="images/logo.png" alt="logo"></img>
         </a>
 
@@ -33,7 +38,7 @@
       
       <hr class="nav__line" />
       
-      <nav class="nav layout1200">
+      <nav class="nav content_width1200-centered">
          
           <div class="nav__4xblock">
               <img class="nav__arrow nav__arrow_z-inx4" src="images/navarrow.png" alt="arrow"></img>
@@ -43,7 +48,6 @@
               <div class="nav__rect">
                 <img class="nav__icon" src="images/checkwhite.svg" alt="check">
               </div>
-          
           </div> 
             
           <div class="nav__4xblock">
@@ -70,29 +74,31 @@
       
       <hr class="nav__line" />
 
-      <div class="nav__titles layout1200">
+      <div class="nav__titles content_width1200-centered">
         <div class="nav__title">Patientenverfügung</div>
         <div class="nav__title">Vorsorgevollmacht</div>
         <div class="nav__title">Betreuungsverfügung</div>
       </div>   
   
-      <section class="bestellung section_padded layout1200">
+      <section class="bestellung section_padded content_width1200-centered">
         
         <h1 class="h1">Bestellung abschließen</h1>
         <p class="text">Sie haben Ihre personalisierten Vorsorgedokumente
            (Patientenverfügung, Vorsorgevollmacht und Betreuungsverfügung) erfolgreich erstellt.
         </p>
-        <div class="sehen">
+        
+        <div class="sehen-container">
           <img class="sehen__icon" src="images/search.svg" alt="search icon">
-          <a class="header__mail-link sehen__link" href="">Sehen Sie eine Vorschau der Dokumente.</a>
+          <a class="sehen__link link_bold" href="">Sehen Sie eine Vorschau der Dokumente.</a>
         </div>
-        <p class="text text_last-line">Sie gehen kein Risiko ein. 
+        
+        <p class="text block_no-margin-bottom">Sie gehen kein Risiko ein. 
           Ihre Dokumente sind noch 14 Tage nach dem Kauf kostenlos änderbar.
         </p>
       </section>
 
       <section class="premium">
-        <div class="content section_padded">
+        <div class="content_width1200-centered section_padded">
           <h2 class="h2">Premium Service: Lebenslange Änderungsmöglichkeit</h2>
           <p class="text">Gehen Sie wie viele andere Kunden auf Nummer sicher. 
             Experten raten dazu, die Vorsorgedokumente in regelmäßigen Abständen an 
@@ -101,15 +107,61 @@
             Ihrer Vertrauenspersonen durch Krankheit oder andere Schicksalsschläge verändern.
             Bleiben Sie für solche Fälle handlungsfähig.</p>
           <h3 class="h3">Ihre Vorteile für einmalig 49 Euro:</h3>
-          <p class="text text_last-line">- Jederzeitige Möglichkeit Dokumente anzupassen und zu aktualisieren<br> 
-  - Berücksichtigung zukünftiger Gesetzesänderungen bei Aktualisierung<br> 
-  - Faires Angebot: einmalige Zahlung, kein Abonnement</p>
+          <p class="text">- Jederzeitige Möglichkeit Dokumente anzupassen und zu aktualisieren<br> 
+            - Berücksichtigung zukünftiger Gesetzesänderungen bei Aktualisierung<br> 
+            - Faires Angebot: einmalige Zahlung, kein Abonnement</p>
+          <input class="regular-checkbox" type="checkbox">Ja, ich will meine Vorsorgedokumente für 49 Euro jederzeit ändern können.</input> 
         </div>
       </section>
-    
-    
+
+      <section class="productubersicht">
+        <div class="content_width1200-centered section_padded">
+          <h2 class="h2">Produktübersicht</h2>
+          
+          <table class="table">
+            <tr class="tr">
+              <td class="td">Produkt</th>
+              <td class="td">Preise in Euro inkl. MwSt.</th>
+            </tr>
+            <tr class="tr">
+              <td class="td">Patientenverfügung für Marc Mayer am 05.06.2014<br>
+Patientenverfügung, Vorsorgevollmacht, Betreuungsverfügung</td>
+              <td class="td">99,00</td>
+            </tr> 
+             <tr class="tr">
+              <td class="td">Premium Service: Lebenslange Änderungsmöglichkeit</td>
+              <td class="td">49,00</td>
+            </tr> 
+          </table>
+
+          <table class="block_no-margin-bottom table__summ table">
+            <tr class="tr">
+              <td class="td td_bold">Gesamtsumme</td>
+              <td class="td td_bold">148,00</td>
+            </tr>
+          </table>
+        <div>
+      </section>
+      
+      <hr class="hr_content-width" />
+
+      <section class="personliche">
+        <div class="content_width1200-centered section_padded">
+          <h2 class="h2">Persönliche Angaben des Kontoinhabers (eingeloggte Person)</h2>
+          <p class="text">Bitte überprüfen Sie Ihre Angaben auf Richtigkeit bzw. geben Sie Ihre Daten ein.</p>
+          
+          <form class="form anrede">
+          </form>
+
+          </form>
+        </div>
+      </section>
+
+      <hr class="hr_content-width" />
+
       <footer>
       </footer>    
     </div>
+    
   </body>
 </html>
