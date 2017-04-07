@@ -1,13 +1,18 @@
 /* CSS */
 
 body {
-  margin: 0px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.content_width1200-centered {
+body *, body *::before, body *::after {
+  box-sizing: inherit;
+}
+
+.container {
   width: 1200px;
-  margin: auto;
-  box-sizing: border-box;
+  margin: 0 auto;
+  
 }
 
 .general-layout {
@@ -15,7 +20,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #494843;
-  padding: 0px;
+  padding: 0;
 }
 
 .h1 {
@@ -24,14 +29,14 @@ body {
   font-weight: 300;
   text-align: left;
   line-height: 35px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
 .h2 {
   font-size: 20px;
   font-weight: 400;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -53,19 +58,21 @@ body {
 
 .block_margin-bottom50px {
   margin-bottom: 50px !important;
-  
 }
 
-.premium {
+.background_light-blue100vw {
   background-color: #eef9ff;
   background-size: 100vw;
 }
 
 .regular-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
   border: 1px solid #979797;
   border-radius: 0px;
   box-sizing: border-box;
-  background-color: white;
+  background: white url("../images/check.svg") no-repeat center center;
   width: 24px;
   height: 24px;
   position: relative;
