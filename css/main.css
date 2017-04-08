@@ -15,8 +15,13 @@ body *, body *::before, body *::after {
   
 }
 
+.container_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .general-layout {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #494843;
@@ -42,18 +47,18 @@ body *, body *::before, body *::after {
 
 .h3 {
   font-size: 1rem;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;  
 }
 
 .text {
   margin-bottom: 30px;
-  margin-top: 0px;
+  margin-top: 0;
   line-height: 20px;
 }
 
 .block_no-margin-bottom {
-  margin-bottom: 0px !important;
+  margin-bottom: 0 !important;
 }
 
 .block_margin-bottom50px {
@@ -70,7 +75,7 @@ body *, body *::before, body *::after {
   -moz-appearance: none;
 
   border: 1px solid #979797;
-  border-radius: 0px;
+  border-radius: 0;
   box-sizing: border-box;
   background: white url("../images/check.svg") no-repeat center center;
   width: 24px;
@@ -125,14 +130,14 @@ body *, body *::before, body *::after {
   background-color: #767676;
   height: 1px;
   border: none;
-  padding: 0px;
+  padding: 0;
   width: 1200px;
   margin: auto;
 }
 
 
 .form {
-  font-family: Roboto;
+  font-family: 'Roboto';
   color:  #494843;
   font-size: 14px;
   font-weight: 300;
@@ -156,9 +161,7 @@ body *, body *::before, body *::after {
 
 .form__input {
   flex: 1 1 374px;
-  border-style: solid;
-  border-width: 1px;
-  border-color:  #979797;
+  border: 1px solid #979797;
   box-sizing: border-box;
   background-color:  #eeeeee;
   width: 374px;
@@ -169,9 +172,11 @@ body *, body *::before, body *::after {
 .form__select {
 -moz-appearance: none;
 -webkit-appearance: none;
+font: inherit;
 
 background: #eeeeee url("../images/select.png") no-repeat right center;
 display: block;  
+border-radius: 0;
 }
 
 .form__option {
