@@ -1,12 +1,8 @@
 /* CSS for Header */
 
 .header {
-  padding-left: 8px;
-  padding-right: 8px;
-  display: flex;
   padding-top: 26px;
   padding-bottom: 16px;
-  
 }
 
 .header__mail-menu {
@@ -16,6 +12,7 @@
 }
 
 .logo {
+  padding-left: 8px;
   flex: 4;
 }
 
@@ -33,6 +30,7 @@
 }
 
 .header__menu {
+  padding-right: 8px;
   color: #33a0da;
 }
 

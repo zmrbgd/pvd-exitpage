@@ -1,6 +1,6 @@
 /* Bestellung section styles*/
 
-.sehen-container {
+.sehen {
     margin-bottom: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -8,7 +8,7 @@
 
 .sehen__link {
     position: relative;
-    top: -14px;
+    top: -13px;
     font-weight: 700;
 }
 

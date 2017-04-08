@@ -1,21 +1,8 @@
 /* Nav CSS */
 
-.container_flex {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.nav__line {
-    background: #33a0da;
-    color: #33a0da;
-    height: 1px;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    position: absolute;
-    width: 100vw;
-    left: 0;
+.nav {
+    border-top: 1px solid #33a0da;
+    border-bottom: 1px solid #33a0da;
 }
 
 .nav__4xblock { 

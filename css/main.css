@@ -70,18 +70,23 @@ body *, body *::before, body *::after {
   background-size: 100vw;
 }
 
-.regular-checkbox {
+.checkbox__input {
   -webkit-appearance: none;
   -moz-appearance: none;
 
   border: 1px solid #979797;
   border-radius: 0;
-  box-sizing: border-box;
-  background: white url("../images/check.svg") no-repeat center center;
   width: 24px;
   height: 24px;
-  position: relative;
-  top: 5px;
+  margin: 0 8px -5px 0;
+}
+
+.checkbox__input:checked {
+  background: transparent url("../images/check.svg") no-repeat center center;
+}
+
+.checkbox__title {
+
 }
 
 .link_bold {
