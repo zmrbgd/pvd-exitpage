@@ -44,12 +44,22 @@
     flex: 1 0 90px;
     height: 33px;
     background: url('../images/nav-arrow-body.png');
+    margin-top: -1px;
+    
 } 
+
+.nav__element-short::after {
+    content: url('../images/nav-arrow-nose.png');
+    position: relative;
+    left: 100%;
+    
+}
 
 .nav__element-long {
     flex: 1 0 101px;
     height: 33px;
     background: url('../images/navend.png');
+    margin-top: -1px;
 } 
 
 .nav__element-rect {
