@@ -1,10 +1,9 @@
 /* Nav CSS */
 
-.nav {
+.container_flex {
     display: flex;
     justify-content: space-between;
-    overflow-x: visible;
-    margin-bottom: 0px;
+    
 }
 
 .nav__line {
@@ -16,18 +15,18 @@
     margin: 0px;
     position: absolute;
     width: 100vw;
-    left: 0px;
+    left: 0;
 }
 
 .nav__4xblock { 
     flex: 1;
     margin-bottom: -5px;
-    padding: 0px;
+    padding: 0;
 }
 
 .nav__arrow { 
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .nav__arrow_margin-15 { margin-left: -15px;}
 .nav__arrow_z-inx1 { z-index: 1;}
