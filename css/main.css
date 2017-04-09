@@ -214,3 +214,16 @@ body *, body *::before, body *::after {
   margin-left: 8px;
   margin-top: 2px;
 }
+
+.button {
+  color: #ffffff;
+  border-radius: 4px;
+  background-color:  #f32198;
+  box-shadow: 0px 3px 0px 0px #aa186a;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 21px 10px 21px;
+  max-width: fit-content;
+  margin-bottom: 30px;
+}
