@@ -167,6 +167,7 @@ body *, body *::before, body *::after {
   min-width: 173px;
   height: 34px;
   padding-left: 18px;
+  font: inherit;
 }
 
 .form__select {
