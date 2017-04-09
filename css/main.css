@@ -77,19 +77,30 @@ body *, body *::before, body *::after {
   background-size: 100vw;
 }
 
+.checkbox {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
 .checkbox__input {
   -webkit-appearance: none;
   -moz-appearance: none;
 
+  flex: 1;
   border: 1px solid #979797;
   border-radius: 0;
-  width: 24px;
+  max-width: 24px;
   height: 24px;
-  margin: 0 6px -5px 0;
+  margin: -5px 8px 0 0;
 }
 
 .checkbox__input:checked {
   background: transparent url("../images/check.svg") no-repeat center center;
+}
+
+.checkbox__title {
+  flex: 1;
 }
 
 .link_bold {
@@ -201,4 +212,5 @@ body *, body *::before, body *::after {
 
 .info__button {
   margin-left: 8px;
+  margin-top: 2px;
 }
