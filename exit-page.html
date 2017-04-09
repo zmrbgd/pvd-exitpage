@@ -143,7 +143,7 @@
           
           <!--FORM-->
 
-          <form class="form form_width50per">
+          <form class="form">
             <div class="form__line">
               <label class="form__label" for="anrede">Anrede*</label>
               <input class="form__input" type="text">
@@ -176,6 +176,50 @@
         </div>
       </section>
 
+      <section class="auswahl">
+        <div class="container container_flex section_padded block_bottom-border">
+          <div class="column-container">
+            <h2 class="h2">Auswahl der Zahlungsart</h2>
+          </div>
+          
+          <div class="column-container">
+            <h3 class="h3">Kreditkarte</h3>
+
+            <form class="form">
+              <div class="form__line">
+                <label class="form__label" for="Karteninhaber">Karteninhaber*</label>
+                <input class="form__input" type="text">
+              </div>
+              <div class="form__line">
+                <label class="form__label" for="Kartennummer">Kartennummer*</label>
+                <input  class="form__input" type="text">
+              </div>
+              <div class="form__line">
+                <label class="form__label" for="Gültig bis">Gültig bis*</label>
+                  <div class="double-input container_flex">
+                    <select class="form__input form__select form__input_short">
+                      <option class="form__option_default" selected disabled>Monat</option>
+                      <option class="form__option">Option 1</option>
+                      <option class="form__option">Option 2</option>
+                    </select>
+                    <select class="form__input form__select form__input_short">
+                      <option class="form__option_default" selected disabled>Jahr</option>
+                      <option class="form__option">Option 1</option>
+                      <option class="form__option">Option 2</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="form__line">
+                <label class="form__label" for="Prüfziffer">Prüfziffer*</label>
+                <input class="form__input form__input_short" type="text">
+                <a class="info__button" href=""><img src="images/i.svg" alt="info"></a>
+              </div>
+              <p class="form__caption block_no-margin-bottom">Die mit dem * gekennzeichnten Felder müssen ausgefüllt werden.</p>
+            </form>
+          </div>
+        
+        </div>
+      </section>
       <footer>
       </footer>    
     </div>
