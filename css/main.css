@@ -33,12 +33,16 @@ body *, body *::before, body *::after {
   padding: 0;
 }
 
+.section_padded {
+   padding: 50px 33px 50px 33px;
+}
+
 .h1 {
   color:  #33a0da;
   font-size: 35px;
   font-weight: 300;
   text-align: left;
-  line-height: 35px;
+  line-height: 30px;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -46,7 +50,7 @@ body *, body *::before, body *::after {
 .h2 {
   font-size: 20px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 22px;
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -79,7 +83,7 @@ body *, body *::before, body *::after {
 }
 
 .checkbox {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -93,7 +97,7 @@ body *, body *::before, body *::after {
   border-radius: 0;
   max-width: 24px;
   height: 24px;
-  margin: -5px 8px 0 0;
+  margin: -3px 8px 0 0;
 }
 
 .checkbox__input:checked {
@@ -122,8 +126,8 @@ body *, body *::before, body *::after {
   max-height: fit-content;
 }
 .table__summ {
-  flex: 1 1 537;
-  max-width: 537px;
+  flex: 1 1 517;
+  max-width: 517px;
 }
 
 
@@ -231,24 +235,32 @@ body *, body *::before, body *::after {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: #ff2da4;
+}
+
 .button__link {
   text-decoration: none;
 }
 
 .footer {
-  height: 276px;
   background-image: linear-gradient(to top, #afadae 22%, #dad8d9 64%, #e9e9e9 96%);
   border-top: 1px solid #33a0da;
 }
 
 .footer__column-container {
-  flex: 1 1 100px;;
-  max-width: 200px;
+  flex: 1 1 205px;
+  max-width: 205px;
 }
 
 .footer__container_flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.list {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .list__header {
@@ -266,4 +278,47 @@ body *, body *::before, body *::after {
   line-height: 20px;
   text-align: left;
   list-style-type: none;
+  
+}
+
+.block_margin-bt10px {
+  margin-bottom: 10px;
+}
+
+.img-payment {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.text_14 {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.li_img {
+  font-size: 16px;
+}
+
+.radio {
+}
+
+.radio .img-payment {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.radio__input {
+  max-width: 19px;
+  height: 19px;
+  margin: 0 10px 0 0;
+  border-radius: 10px;
+}
+
+.checkbox__input_round:checked {
+  background: transparent url("../images/circle.svg") no-repeat 57% 60%;
+}
+
+.auswahl .checkbox {
+  align-items: flex-start;
 }

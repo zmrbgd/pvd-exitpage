@@ -98,7 +98,7 @@
           <p class="text">- Jederzeitige Möglichkeit Dokumente anzupassen und zu aktualisieren<br> 
             - Berücksichtigung zukünftiger Gesetzesänderungen bei Aktualisierung<br> 
             - Faires Angebot: einmalige Zahlung, kein Abonnement</p>
-          <div class="checkbox">
+          <div class="checkbox block_no-margin-bottom">
             <input class="checkbox__input" type="checkbox">
             <span class="checkbox__title">Ja, ich will meine Vorsorgedokumente für 49 Euro jederzeit ändern können.</span> 
           </div>
@@ -179,7 +179,34 @@
       <section class="auswahl">
         <div class="container container_flex section_padded block_bottom-border">
           <div class="column-container">
-            <h2 class="h2">Auswahl der Zahlungsart</h2>
+            <h2 class="h2 block_margin-bottom50px">Auswahl der Zahlungsart</h2>
+
+            <div class="radio">
+              <input class="radio__input" name="radio-payment" type="radio">
+              <div class="checkbox__title">
+                <span class="text">Sofortüberweisung</span>
+                <img class="img-payment" src="images/sofort.png" alt="sofort">
+                <p class="text_14">Mit PIN &amp; TAN einfach und sicher mit den gewohnten<br> 
+                  Online-Banking-Daten zahlen </p>
+              </div>                  
+            
+            <div class="radio">
+              <input class="radio__input" name="radio-payment" type="radio">
+              <div class="checkbox__title">
+                <span class="text">PayPal</span>
+                <img class="img-payment" src="images/paypal.png" alt="paypal">
+                <p class="text_14">Einfach und sicher mit Payal bezahlen</p>
+              </div>
+            
+            <div class="radio">
+              <input class="radio__input" name="radio-payment" type="radio">
+              <div class="checkbox__title">
+                <span class="text">Kreditkarte</span>
+                <img class="img-payment" src="images/mastercard.png" alt="mastercard">
+                <p class="text_14">Zahlen Sie mit Visa oder Mastercard</p>
+              </div>
+            </div>  
+
           </div>
           
           <div class="column-container">
@@ -266,10 +293,10 @@
             </table>
         </div>
         <button class="button">Zahlungspflichtig bestellen</button>
-        <p class="text block_no-margin-bottom">Ja, ich will meine Vorsorgedokumente jetzt erwerben.</p>
+        <p class="text block_margin-bt10px">Ja, ich will meine Vorsorgedokumente jetzt erwerben.</p>
       </section>
       <footer class="footer">
-        <div class="section_padded container;">
+        <div class="section_padded container">
           <div class="footer__container_flex">
             <div class="footer__column-container">
               <ul class-"list">
@@ -280,36 +307,36 @@
                 <li class="li">Abmelden</li>
               </ul>
             </div>
-            <div class=footer__"column-container">
+            <div class="footer__column-container">
               <ul class-"list">
-                <li class="list__header">Mein Konto</li>
-                <li class="li">Übersicht</li>
-                <li class="li">Persönliche Daten</li>
-                <li class="li">Zugangsdaten</li>
-                <li class="li">Abmelden</li>
+                <li class="list__header">Ratgeber</li>
+                <li class="li">Dokument erklärt</li>
+                <li class="li">Häufige Missverständisse</li>
+                <li class="li">Dokument aufbewahren</li>
+                <li class="li">Beispiel-Fälle</li>
               </ul>
             </div>
             <div class="footer__column-container">
               <ul class-"list">
-                <li class="list__header">Mein Konto</li>
-                <li class="li">Übersicht</li>
-                <li class="li">Persönliche Daten</li>
-                <li class="li">Zugangsdaten</li>
-                <li class="li">Abmelden</li>
+                <li class="list__header">Rechtliches</li>
+                <li class="li">Impressum</li>
+                <li class="li">Datenschutz</li>
+                <li class="li">Widerrufsrecht</li>
+                <li class="li">AGB</li>
               </ul>
             </div>
             <div class="footer__column-container">
               <ul class-"list">
-                <li class="list__header">Mein Konto</li>
-                <li class="li">Übersicht</li>
-                <li class="li">Persönliche Daten</li>
-                <li class="li">Zugangsdaten</li>
-                <li class="li">Abmelden</li>
-              </ul></div>   
-            </div>
+                <li class="list__header">Sicher bezahlen</li>
+                <li class="li">Kundeninformation</li>
+                <li class="li"><img class="img-payment" src="images/mastercard.png" alt="mastercard"></li>
+                <li class="li"><img class="img-payment" src="images/sofort.png" alt="sofort"></li>
+                <li class="li"><img class="img-payment" src="images/paypal.png" alt="paypal"></li>
+              </ul>
+            </div>   
           </div>
+        </div>
       </footer>
     </div>
-    
   </body>
 </html>
