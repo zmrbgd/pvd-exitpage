@@ -1,4 +1,28 @@
-/* CSS */
+/**
+ * BEM Tree
+ * ---------
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+ 
+
+
+
+
+
 
 body {
   margin: 0;
@@ -111,7 +135,7 @@ body {
   font-weight: 700;  
 }
 
-.table {
+.table {  
   border: none;
   border-collapse: collapse;
   margin-bottom: 30px;
@@ -127,7 +151,6 @@ body {
   flex: 1 1 517px;
   max-width: 517px;
 }
-
 
 .td {
   font-size: 15px;
@@ -150,8 +173,10 @@ body {
   background-color: #eef9ff;
 }
 
+
+
 .form {
-  font-family: 'Roboto';
+  font-family: inherit;
   color:  #494843;
   font-size: 14px;
   font-weight: 300;
