@@ -7,6 +7,7 @@ body {
 
 body *, body *::before, body *::after {
   box-sizing: inherit;
+  margin-top: 0;
 }
 
 .container {
@@ -43,7 +44,6 @@ body *, body *::before, body *::after {
   font-weight: 300;
   text-align: left;
   line-height: 30px;
-  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -51,25 +51,22 @@ body *, body *::before, body *::after {
   font-size: 20px;
   font-weight: 400;
   line-height: 22px;
-  margin-top: 0;
   margin-bottom: 30px;
 
 }
 
 .h3 {
   font-size: 1rem;
-  margin-top: 0;
   margin-bottom: 30px;  
   line-height: 24px;
 }
 
-.text {
+.paragraph {
   margin-bottom: 30px;
-  margin-top: 0;
   line-height: 20px;
 }
 
-.block_no-margin-bottom {
+.block_mar-btm-0 {
   margin-bottom: 0 !important;
 }
 
@@ -108,7 +105,7 @@ body *, body *::before, body *::after {
   flex: 1;
 }
 
-.link_bold {
+.text_bold {
   color: #494843;
   font-weight: 700;  
 }
@@ -301,7 +298,7 @@ body *, body *::before, body *::after {
 }
 
 .radio {
-  /*display : flex;*/
+  display : flex;
 }
 
 .radio .img-payment {
@@ -309,7 +306,7 @@ body *, body *::before, body *::after {
   margin-left: 10px;
 }
 
-.radio__input {
+.radio__input { 
   max-width: 19px;
   height: 19px;
   margin: 0 10px 0 0;
@@ -322,4 +319,15 @@ body *, body *::before, body *::after {
 
 .auswahl .checkbox {
   align-items: flex-start;
+}
+
+.container_ver-padded {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 30px;
+}
+
+.sehen__link {
+    position: relative;
+    top: -13px;
 }
