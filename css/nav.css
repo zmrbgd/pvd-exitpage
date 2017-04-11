@@ -49,11 +49,11 @@
 }
 
 .nav_check {
-background: #33a0da url(../images/checkwhite.svg) no-repeat center center;
+    background: #33a0da url(../images/checkwhite.svg) no-repeat center center;
 }
 
 .nav_file {
-background: #33a0da url(../images/file.svg) no-repeat center center;    
+    background: #33a0da url(../images/file.svg) no-repeat center center;    
 }
 
 .nav__titles {
