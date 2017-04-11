@@ -301,6 +301,7 @@ body *, body *::before, body *::after {
 }
 
 .radio {
+  /*display : flex;*/
 }
 
 .radio .img-payment {
