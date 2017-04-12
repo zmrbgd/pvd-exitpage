@@ -4,9 +4,9 @@
  *
  * page
  *  |---header
- *  |      |---logo
- *  |      |---header__mail
- *  |      |---header__menu
+ *  |     |---logo
+ *  |     |---header__mail
+ *  |     |---header__menu
  *  |---nav
  *  |     |---nav__line
  *  |     |     |---nav__section
@@ -14,23 +14,28 @@
  *  |     |---nav__titles
  *  |           |---nav__title
  *  |---section
- *  |     |---heading1   ----?????
+ *  |     |---section__heading 
+ *  |     |---section__subheading
+ *  |     |---section__paragraph   
+ *  |     |---section__checkbox   
+ *  |     |---section__link   
  *  |     |---table
- *  |           |---table__title
- *  |           |---table__list
- *  |                 |---table__row
- *  |                       |---table__data
- *  |           |---table__summ
- *  |                 |---table__row
- *  |                       |---table__data
+ *  |     |     |---table__title
+ *  |     |     |---table__list
+ *  |     |     |     |---table__row
+ *  |     |     |           |---table__data
+ *  |     |     |---table__summ
+ *  |     |           |---table__row
+ *  |     |                 |---table__data
  *  |     |---form
- *  |           |---form__title
- *  |           |---form__line
- *  |                 |---form__label
- *  |                 |---form__input
- *  |           |---form__caption
+ *  |     |     |---form__title
+ *  |     |     |---form__line
+ *  |     |     |     |---form__label
+ *  |     |     |     |---form__input
+ *  |     |     |---form__caption
  *  |     |---radiobox
- *  |     |---main-button
+ *  |     |---radiobox
+ *  |     |---section__main-button
  *  |---footer
  *        |---footer__list[]
  *              |---footer__list-title
@@ -38,10 +43,10 @@
  *
  *
  *
- *-----------------------------
+ * -----------------------------
  * QUESTIONS
- *-----------------------------
- * containers / wrappers - how to name/treat (element, modifier )?
+ * -----------------------------
+ * containers / wrappers - how to name/treat (element, modifier)?
  *
  *
  *
