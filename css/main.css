@@ -1,30 +1,54 @@
 /**
- * BEM Tree
+ * BEM TREE
  * ---------
- * 
+ *
+ * page
+ *  |---header
+ *  |      |---logo
+ *  |      |---header__mail
+ *  |      |---header__menu
+ *  |---nav
+ *  |     |---nav__line
+ *  |     |     |---nav__section
+ *  |     |     |---nav__rect
+ *  |     |---nav__titles
+ *  |           |---nav__title
+ *  |---section
+ *  |     |---heading1   ----?????
+ *  |     |---table
+ *  |           |---table__title
+ *  |           |---table__list
+ *  |                 |---table__row
+ *  |                       |---table__data
+ *  |           |---table__summ
+ *  |                 |---table__row
+ *  |                       |---table__data
+ *  |     |---form
+ *  |           |---form__title
+ *  |           |---form__line
+ *  |                 |---form__label
+ *  |                 |---form__input
+ *  |           |---form__caption
+ *  |     |---radiobox
+ *  |     |---main-button
+ *  |---footer
+ *        |---footer__list[]
+ *              |---footer__list-title
+ *              |---footer__list-item
  *
  *
  *
- *
- *
- *
- *
- *
- *
- *
- *
+ *-----------------------------
+ * QUESTIONS
+ *-----------------------------
+ * containers / wrappers - how to name/treat (element, modifier )?
  *
  *
  *
  */
  
 
-
-
-
-
-
-body {
+lbody {
   margin: 0;
   box-sizing: border-box;
 }
@@ -35,7 +59,7 @@ body {
   margin-top: 0;
 }
 
-.container {
+.univ_container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -91,7 +115,7 @@ body {
   line-height: 20px;
 }
 
-.global_mar-btm-0 {
+.block_mar-btm-0 {
   margin-bottom: 0 !important;
 }
 
