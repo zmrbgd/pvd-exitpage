@@ -10,9 +10,14 @@
   margin-top: 0;
 }
 
-.section_width-1200 {
+.container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.line {
+  background: #33a0da;
+  height: 1px;
 }
 
 .container_flex {
@@ -20,7 +25,7 @@
   justify-content: space-between;
 }
 
-.column-container {
+.section__column {
   flex: 1 1 530px;;
   max-width: 530px;
 }
@@ -243,7 +248,7 @@
   border-top: 1px solid #33a0da;
 }
 
-.footer__column-container {
+.footer__column {
   flex: 1 1 205px;
   max-width: 205px;
 }

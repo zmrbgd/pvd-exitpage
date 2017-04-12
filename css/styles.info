@@ -37,10 +37,11 @@
  *  |     |---radiobox
  *  |     |---section__main-button
  *  |---footer
- *        |---footer__list[]
- *              |---footer__list-title
- *              |---footer__list-item
- *
+ *        |---footer__column[]
+ *              |---footer__list[]
+ *                    |---footer__list-title
+ *                    |---footer__list-item
+ 
  *
  *
  * -----------------------------

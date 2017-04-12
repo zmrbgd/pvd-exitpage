@@ -1,12 +1,10 @@
 /* Nav CSS */
 
 .nav {
-    border-top: 1px solid #33a0da;
-    border-bottom: 1px solid #33a0da;
-    height: 33px;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* nav bar */
 
 .nav__element-short {
     flex: 1 0 90px;
@@ -27,12 +25,11 @@
     flex: 1 0 101px;
     height: 33px;
     background: url('../images/navend.png');
-    margin-top: -1px;
 } 
 
 .nav__rect-container {
     flex: 1 1 33px;
-    height: 33px;
+    height: 31px;
 } 
 
 .nav__rect {
