@@ -8,10 +8,11 @@
  *  |     |---header__ui
  *  |           |---header__mail
  *  |           |---header__menu
- *  |---nav
+ *  |---nav 
  *  |     |---nav__line
- *  |     |     |---nav__section
+ *  |     |     |---nav__element
  *  |     |     |---nav__rect
+ *  |     |             |---nav__icon
  *  |     |---nav__titles
  *  |           |---nav__title
  *  |---section
