@@ -2,36 +2,46 @@
 
 .header {
   padding: 26px 8px 16px 8px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__mail-menu {
-   flex: 2;
-   display: flex;
-   padding-top: 41px;
-}
+  .logo {
+    flex: 2;
+  }
 
-.logo {
-  flex: 4;
-}
+  .header__ui {
+    flex: 1;
+    display: flex;
+    padding-top: 41px;
+  }
 
-.header__mail-link {
-  color: #494843;
-  flex: 1;  
-}
+    .header__mail {
+      color: #494843;
+      flex: 1;  
+    }
 
-.header__mailto {
-  flex: 1;
-}
+    .header__mail::before {
+      content: url("../images/mail.svg");
+      margin-right: 8px;
+      display: inline-block;
+      vertical-align: middle;
+    }
 
-.header__mail-icon {
-  margin-bottom: -3px;
-}
+    .header__menu {
+      color: #33a0da;
+    }
 
-.header__menu {
-  color: #33a0da;
-}
+    .header__menu::after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 9px solid #33a0da;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 4px;
+    }
 
-.header__triangle {
-  display: inline-block;
-}
 

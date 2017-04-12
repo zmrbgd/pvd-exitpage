@@ -5,8 +5,9 @@
  * page
  *  |---header
  *  |     |---logo
- *  |     |---header__mail
- *  |     |---header__menu
+ *  |     |---header__ui
+ *  |           |---header__mail
+ *  |           |---header__menu
  *  |---nav
  *  |     |---nav__line
  *  |     |     |---nav__section
@@ -33,7 +34,6 @@
  *  |     |     |     |---form__label
  *  |     |     |     |---form__input
  *  |     |     |---form__caption
- *  |     |---radiobox
  *  |     |---radiobox
  *  |     |---section__main-button
  *  |---footer
