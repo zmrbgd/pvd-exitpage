@@ -1,54 +1,5 @@
-/**
- * BEM TREE
- * ---------
- *
- * page
- *  |---header
- *  |      |---logo
- *  |      |---header__mail
- *  |      |---header__menu
- *  |---nav
- *  |     |---nav__line
- *  |     |     |---nav__section
- *  |     |     |---nav__rect
- *  |     |---nav__titles
- *  |           |---nav__title
- *  |---section
- *  |     |---heading1   ----?????
- *  |     |---table
- *  |           |---table__title
- *  |           |---table__list
- *  |                 |---table__row
- *  |                       |---table__data
- *  |           |---table__summ
- *  |                 |---table__row
- *  |                       |---table__data
- *  |     |---form
- *  |           |---form__title
- *  |           |---form__line
- *  |                 |---form__label
- *  |                 |---form__input
- *  |           |---form__caption
- *  |     |---radiobox
- *  |     |---main-button
- *  |---footer
- *        |---footer__list[]
- *              |---footer__list-title
- *              |---footer__list-item
- *
- *
- *
- *-----------------------------
- * QUESTIONS
- *-----------------------------
- * containers / wrappers - how to name/treat (element, modifier )?
- *
- *
- *
- */
- 
 
-lbody {
+ body {
   margin: 0;
   box-sizing: border-box;
 }
