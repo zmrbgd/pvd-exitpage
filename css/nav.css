@@ -5,44 +5,46 @@
   justify-content: space-between;
 }
 
-.nav__element {
-  flex: 1 1 90px;
-  height: 32px;
-  background: linear-gradient(90deg, #9bdbff 0%, #c8ecff 40%);
-  border-left: 1px solid  #33a0da;
-}
+  .nav__element {
+    flex: 1 1 90px;
+    height: 32px;
+    background: linear-gradient(90deg, #9bdbff 0%, #c8ecff 40%);
+    border-left: 1px solid  #33a0da;
+  }
 
-.nav__element::after {
-  content: url('../images/nav-arrow-nose.png');
-  position: relative;
-  left: 100%;
-}
+    .nav__element::after {
+      content: url('../images/nav-arrow-nose.png');
+      position: relative;
+      left: 100%;
+    }
 
-.nav__rect {
-  flex: 1 1 33px;
-} 
+  .nav__rect {
+    flex: 1 1 33px;
+  } 
 
-.nav__icon {
-  box-sizing: content-box;
-  position: absolute;
-  z-index: 10;
-  margin-top: -3px;
-  width: 32px;
-  height: 32px;
-  border: 3px solid #33a0da;
-  border-radius: 4px;
-}
+    .nav__icon {
+      box-sizing: content-box;
+      position: absolute;
+      z-index: 10;
+      margin-top: -3px;
+      width: 32px;
+      height: 32px;
+      border: 3px solid #33a0da;
+      border-radius: 4px;
+    }
 
-.nav__icon_check {
-  background: #33a0da url(../images/checkwhite.svg) no-repeat center center;
-}
+      .nav__icon_check {
+        background: #33a0da url(../images/checkwhite.svg) no-repeat center center;
+      }
 
-.nav__icon_file {
-  background: #33a0da url(../images/file.svg) no-repeat center center;    
-}
+      .nav__icon_file {
+        background: #33a0da url(../images/file.svg) no-repeat center center;    
+      }
 
 .nav__titles {
   display: flex;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .nav__title {
@@ -50,9 +52,6 @@
   position: relative;
   color: #33a0da;
   font-size: 15px;
-  font-weight: 400;
   line-height: 21px;
-  padding-top: 7px;
-  padding-bottom: 7px;
   letter-spacing: .5px;
 }
