@@ -11,7 +11,7 @@
   </head>
 
   <body class="page">
-    <div class="container">
+    <div class="wrapper">
       <header class="header">
         <a class="logo" href="">
           <img src="images/logo.png" alt="logo">
@@ -26,7 +26,7 @@
     
     <div class="line"></div>
 
-    <div class="container">
+    <div class="wrapper">
       <nav class="nav">
         <div class="nav__element"></div>
         <div class="nav__element"></div>
@@ -54,13 +54,13 @@
     
     <div class="line"></div>
     
-    <div class="nav__titles container">
+    <div class="nav__titles wrapper">
       <div class="nav__title">Patientenverfügung</div>
       <div class="nav__title">Vorsorgevollmacht</div>
       <div class="nav__title">Betreuungsverfügung</div>
     </div>   
 
-    <section class="bestellung section container">
+    <section class="bestellung section wrapper">
       
       <h1 class="heading1">Bestellung abschließen</h1>
       <p class="section__paragraph">Sie haben Ihre personalisierten Vorsorgedokumente
@@ -77,7 +77,7 @@
     </section>
 
     <section class="premium-service">
-      <div class="container section">
+      <div class="wrapper section">
         <h2 class="heading2">Premium Service: Lebenslange Änderungsmöglichkeit</h2>
         <p class="section__paragraph">Gehen Sie wie viele andere Kunden auf Nummer sicher. 
           Experten raten dazu, die Vorsorgedokumente in regelmäßigen Abständen an 
@@ -99,38 +99,41 @@
     </section>
 
     <section class="productubersicht">
-      <div class="container section section_bottom-border">
-        <h2 class="heading2">Produktübersicht</h2>
+      <div class="wrapper section section_bottom-border">
         
-          <table class="table">
+        <h2 class="table__heading heading2">Produktübersicht</h2>
+        
+        <table class="table">
+          <tr class="tr">
+            <td class="td">Produkt</th>
+            <td class="td">Preise in Euro inkl. MwSt.</th>
+          </tr>
+          <tr class="tr">
+            <td class="td">Patientenverfügung für Marc Mayer am 05.06.2014<br>
+              Patientenverfügung, Vorsorgevollmacht, Betreuungsverfügung</td>
+            <td class="td">99,00</td>
+          </tr> 
+          <tr class="tr">
+            <td class="td">Premium Service: Lebenslange Änderungsmöglichkeit</td>
+            <td class="td">49,00</td>
+          </tr> 
+        </table>
+        
+        <div class="table-container">
+          <table class="table__summ table">
             <tr class="tr">
-              <td class="td">Produkt</th>
-              <td class="td">Preise in Euro inkl. MwSt.</th>
+              <td class="td td_bold">Gesamtsumme</td>
+              <td class="td td_bold">148,00</td>
             </tr>
-            <tr class="tr">
-              <td class="td">Patientenverfügung für Marc Mayer am 05.06.2014<br>
-Patientenverfügung, Vorsorgevollmacht, Betreuungsverfügung</td>
-              <td class="td">99,00</td>
-            </tr> 
-            <tr class="tr">
-              <td class="td">Premium Service: Lebenslange Änderungsmöglichkeit</td>
-              <td class="td">49,00</td>
-            </tr> 
           </table>
-          
-          <div class="table-container">
-            <table class="table__summ table">
-              <tr class="tr">
-                <td class="td td_bold">Gesamtsumme</td>
-                <td class="td td_bold">148,00</td>
-              </tr>
-            </table>
         </div>
+      
       </div>
+    
     </section>
 
     <section class="personliche">
-      <div class="container section section_bottom-border">
+      <div class="wrapper section section_bottom-border">
         <h2 class="heading2">Persönliche Angaben des Kontoinhabers (eingeloggte Person)</h2>
         <p class="section__paragraph section_margin-bottom50px">Bitte überprüfen Sie Ihre Angaben auf Richtigkeit bzw. geben Sie Ihre Daten ein.</p>
         
@@ -172,7 +175,7 @@ Patientenverfügung, Vorsorgevollmacht, Betreuungsverfügung</td>
     </section>
 
     <section class="auswahl">
-      <div class="container section_flex section section_bottom-border">
+      <div class="wrapper section_flex section section_bottom-border">
         
         <div class="section__column">
           <h2 class="heading2 section_margin-bottom50px">Auswahl der Zahlungsart</h2>
@@ -249,7 +252,7 @@ Patientenverfügung, Vorsorgevollmacht, Betreuungsverfügung</td>
       </div>
     </section>
 
-    <section class="jetzt section container">
+    <section class="jetzt section wrapper">
       
       <h1 class="heading1">Jetzt Bestellung abschließen</h1>
       <p class="section__paragraph">Durch Anklicken des Buttons „Zahlungspflichtig bestellen“ wird ein Vertrag geschlossen. 
@@ -302,7 +305,7 @@ Patientenverfügung, Vorsorgevollmacht, Betreuungsverfügung</td>
       <p class="section__paragraph">Ja, ich will meine Vorsorgedokumente jetzt erwerben.</p>
     </section>
     <footer class="footer">
-      <div class="section container">
+      <div class="section wrapper">
         <div class="footer__container_flex">
           <div class="footer__column">
             <ul class="footer__list">
