@@ -94,10 +94,12 @@ body {
   max-width: 24px;
   height: 24px;
   margin: -3px 8px 0 0;
+  outline: none;  
 }
 
 .checkbox__input:checked {
   background: transparent url("../images/check.svg") no-repeat center center;
+  outline: none;
 }
 
 .checkbox__title {
@@ -181,6 +183,7 @@ body {
   height: 34px;
   padding-left: 18px;
   font: inherit;
+  outline: none;
 }
 
 .form__input_short {
