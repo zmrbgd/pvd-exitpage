@@ -19,7 +19,10 @@
  *  |     |---section__heading 
  *  |     |---section__subheading
  *  |     |---section__paragraph   
- *  |     |---section__checkbox   
+ *  |     |---checkbox-container   
+ *  |           |---checkbox-item   
+ *  |                  |---checkbox__input   
+ *  |                  |---checkbox__title   
  *  |     |---section__link   
  *  |     |---table
  *  |     |     |---table__title

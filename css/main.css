@@ -1,21 +1,19 @@
 
-body {
+
+.page {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #494843;
+  text-align: left;  
 }
 
 *, *::before, *::after {
   font-family: inherit;
   box-sizing: inherit;
   margin-top: 0;
-}
-
-.page {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #494843;
-  text-align: left;  
 }
 
 .container {
@@ -73,12 +71,16 @@ body {
   margin-bottom: 50px !important;
 }
 
-.bg_light-blue {
+.premium-service {
   background-color: #eef9ff;
   background-size: 100vw;
 }
 
-.checkbox {
+.checkbox-container {
+  margin-bottom: 30px;
+}
+
+.checkbox-item {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -259,12 +261,12 @@ body {
   justify-content: center;
 }
 
-.list {
+.footer__list {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.list__header {
+.footer__list-title {
   font-size: 15px;
   font-weight: 700;
   line-height: 22px;
@@ -273,7 +275,7 @@ body {
   
 }
 
-.li {
+.footer__list-item {
   color:  #494843;
   font-size: 13px;
   line-height: 20px;
@@ -297,13 +299,8 @@ body {
   font-size: 16px;
 }
 
-.radio {
+.radio-item {
   display : flex;
-}
-
-.radio .img-payment {
-  height: 20px;
-  margin-left: 10px;
 }
 
 .radio__input { 
@@ -313,7 +310,8 @@ body {
   border-radius: 10px;
 }
 
-.checkbox__input_round:checked {
+
+.radio__input_round:checked {
   background: transparent url("../images/circle.svg") no-repeat 57% 60%;
 }
 
