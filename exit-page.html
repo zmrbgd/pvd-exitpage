@@ -72,7 +72,7 @@
           <a class="sehen__link text_bold" href="">Sehen Sie eine Vorschau der Dokumente.</a>
         </div>
         
-        <p class="text block_mar-btm-0">Sie gehen kein Risiko ein. 
+        <p class="text section_mar-btm-0">Sie gehen kein Risiko ein. 
           Ihre Dokumente sind noch 14 Tage nach dem Kauf kostenlos änderbar.
         </p>
       </section>
@@ -90,7 +90,7 @@
           <p class="section__paragraph">- Jederzeitige Möglichkeit Dokumente anzupassen und zu aktualisieren<br> 
             - Berücksichtigung zukünftiger Gesetzesänderungen bei Aktualisierung<br> 
             - Faires Angebot: einmalige Zahlung, kein Abonnement</p>
-          <div class="checkbox block_mar-btm-0">
+          <div class="checkbox section_mar-btm-0">
             <input id="j-more-money" class="checkbox__input" type="checkbox">
             <label for="j-more-money" class="checkbox__title">Ja, ich will meine Vorsorgedokumente für 49 Euro jederzeit ändern können.</label> 
           </div>
@@ -98,7 +98,7 @@
       </section>
 
       <section class="productubersicht">
-        <div class="container section block_bottom-border">
+        <div class="container section section_bottom-border">
           <h2 class="heading2">Produktübersicht</h2>
           
             <table class="table">
@@ -118,7 +118,7 @@
             </table>
             
             <div class="table-container">
-              <table class="table__summ table block_mar-btm-0">
+              <table class="table__summ table section_mar-btm-0">
                 <tr class="tr">
                   <td class="td td_bold">Gesamtsumme</td>
                   <td class="td td_bold">148,00</td>
@@ -129,9 +129,9 @@
       </section>
 
       <section class="personliche">
-        <div class="container section block_bottom-border">
+        <div class="container section section_bottom-border">
           <h2 class="heading2">Persönliche Angaben des Kontoinhabers (eingeloggte Person)</h2>
-          <p class="text block_margin-bottom50px">Bitte überprüfen Sie Ihre Angaben auf Richtigkeit bzw. geben Sie Ihre Daten ein.</p>
+          <p class="text section_margin-bottom50px">Bitte überprüfen Sie Ihre Angaben auf Richtigkeit bzw. geben Sie Ihre Daten ein.</p>
           
           <form class="form">
             <div class="form__line">
@@ -140,41 +140,41 @@
             </div>
             <div class="form__line">
               <label class="form__label" for="titel">Titel</label>
-              
-              <div class="form__input">
-                <select class="form__select">
-                  <option class="form__option">Option 1</option>
-                  <option class="form__option">Option 2</option>
-                </select>
-              </div>
-            
+              <select class="form__input form__select">
+                <option class="form__option">Option 1</option>
+                <option class="form__option">Option 2</option>
+              </select>
             </div>
+
             <div class="form__line">
               <label class="form__label" for="vorname">Vorname*</label>
               <input  class="form__input" type="text">
             </div>
+         
             <div class="form__line">
               <label class="form__label" for="nachname">Nachname*</label>
               <input class="form__input" type="text">
             </div>
+         
             <div class="form__line">
               <label class="form__label" for="straße und hausnummer">Straße und Hausnummer*</label>
               <input class="form__input" type="text">
             </div>
+         
             <div class="form__line"> 
               <label class="form__label" for="plz und ort">PLZ* und Ort*</label>
               <input class="form__input" type="text">
             </div>
-            <p class="form__caption block_mar-btm-0">Die mit dem * gekennzeichnten Felder müssen ausgefüllt werden.</p>
+            <p class="form__caption section_mar-btm-0">Die mit dem * gekennzeichnten Felder müssen ausgefüllt werden.</p>
           </form>
         </div>
       </section>
 
       <section class="auswahl">
-        <div class="container section_flex section block_bottom-border">
+        <div class="container section_flex section section_bottom-border">
           
           <div class="section__column">
-            <h2 class="heading2 block_margin-bottom50px">Auswahl der Zahlungsart</h2>
+            <h2 class="heading2 section_margin-bottom50px">Auswahl der Zahlungsart</h2>
 
             <div class="radio">
               <input class="radio__input" name="radio-payment" type="radio">
@@ -207,8 +207,10 @@
           </div>
           
           <div class="section__column">
-            <h3 class="heading3">Kreditkarte</h3>
+            
             <form class="form">
+              <h3 class="heading3">Kreditkarte</h3>
+              
               <div class="form__line">
                 <label class="form__label" for="Karteninhaber">Karteninhaber*</label>
                 <input class="form__input" type="text">
@@ -219,12 +221,14 @@
               </div>
               <div class="form__line">
                 <label class="form__label" for="Gültig bis">Gültig bis*</label>
+                  
                   <div class="form__double">
                     <select class="form__input form__select form__input_short">
                       <option class="form__option_default" selected disabled>Monat</option>
                       <option class="form__option">Option 1</option>
                       <option class="form__option">Option 2</option>
                     </select>
+                    
                     <select class="form__input form__select form__input_short">
                       <option class="form__option_default" selected disabled>Jahr</option>
                       <option class="form__option">Option 1</option>
@@ -232,12 +236,13 @@
                     </select>
                   </div>
               </div>
+              
               <div class="form__line">
                 <label class="form__label" for="Prüfziffer">Prüfziffer*</label>
                 <input class="form__input form__input_short" type="text">
                 <a class="info__button" href=""><img src="images/i.svg" alt="info"></a>
               </div>
-              <p class="form__caption block_mar-btm-0">Die mit dem * gekennzeichnten Felder müssen ausgefüllt werden.</p>
+              <p class="form__caption section_mar-btm-0">Die mit dem * gekennzeichnten Felder müssen ausgefüllt werden.</p>
             </form>
           </div>
         </div>
@@ -256,7 +261,7 @@
           <label for="jetzt-1" class="checkbox__title">Mir ist bekannt, dass ich die Dokumente auf Ihre Zweckeignung zu überprüfen sowie die 
             richtige Verwendung sicherzustellen habe und die Plusrecht GmbH nicht vollumfänglich haftet.</label> 
         </div>
-        <div class="checkbox block_margin-bottom50px">
+        <div class="checkbox section_margin-bottom50px">
           <input id="jetzt-2" class="checkbox__input" type="checkbox">
           <label for="jetzt-2" class="checkbox__title">Es gelten die Allgemeinen Geschäftsbedingungen. 
             Mir ist bekannt, dass ein Widerrufsrecht nicht besteht, da die Dokumente eindeutig 
@@ -290,7 +295,7 @@
             </table>
         </div>
         <button class="button">Zahlungspflichtig bestellen</button>
-        <p class="text block_margin-bt10px">Ja, ich will meine Vorsorgedokumente jetzt erwerben.</p>
+        <p class="text section_margin-bt10px">Ja, ich will meine Vorsorgedokumente jetzt erwerben.</p>
       </section>
       <footer class="footer">
         <div class="section container">
