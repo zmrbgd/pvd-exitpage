@@ -125,7 +125,7 @@
   width: 100%;
 }
 
-.table-container {
+.table__summ-container {
   display: flex;
   flex-flow: row-reverse nowrap; 
   max-height: fit-content;
@@ -133,9 +133,15 @@
 .table__summ {
   flex: 1 1 517px;
   max-width: 517px;
+  font-weight: 700;
+  background-color: #eef9ff;
 }
 
-.td {
+.table__header {
+  background-color: #eef9ff;
+}
+
+.table__cell {
   font-size: 15px;
   color: #494843;
   line-height: 18px;
@@ -143,17 +149,9 @@
   padding: 12px 18px 12px 18px;
 }
 
-.td_bold {
-  font-weight: 700;
-}
-
-.td:nth-child(even) {
+.table__cell_right {
   text-align: right;
   width: 236px;
-}
-
-.tr:nth-child(1) {
-  background-color: #eef9ff;
 }
 
 .form {

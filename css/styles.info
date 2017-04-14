@@ -27,11 +27,12 @@
  *  |     |---table
  *  |     |     |---table__title
  *  |     |     |---table__list
+ *  |     |     |     |---table__header
  *  |     |     |     |---table__row
- *  |     |     |           |---table__data
+ *  |     |     |           |---table__cell
  *  |     |     |---table__summ
  *  |     |           |---table__row
- *  |     |                 |---table__data
+ *  |     |                 |---table__cell
  *  |     |---form
  *  |     |     |---form__title
  *  |     |     |---form__line
