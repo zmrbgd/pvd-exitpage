@@ -286,8 +286,10 @@
 }
 
 .img-payment {
+  display: inline;
   height: 20px;
-  margin-top: 5px;
+  margin: 3px 0 3px 0;
+  vertical-align: middle;  
 }
 
 .radio__info {
@@ -297,7 +299,13 @@
 }
 
 .radio-item {
-  display : flex;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.radio__body {
+  display: block;
+  flex: 1;
 }
 
 .radio__input { 
@@ -305,10 +313,14 @@
   height: 19px;
   margin: 0 10px 0 0;
   border-radius: 10px;
+  flex: 1;
 }
 
 .radio__title {
-  vertical-align: middle;  
+  flex: 1;
+}
+
+.radio__label {
 }
 
 .radio__input_round:checked {
