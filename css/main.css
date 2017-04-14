@@ -26,6 +26,11 @@
   height: 1px;
 }
 
+.line_grey {
+  background: #494843;
+  height: 1px;
+}
+
 .section {
    padding: 50px 33px 20px 33px;
 }
@@ -71,7 +76,7 @@
   margin-bottom: 50px !important;
 }
 
-.premium-service {
+.section_blue {
   background-color: #eef9ff;
   background-size: 100vw;
 }
