@@ -275,7 +275,6 @@
   line-height: 22px;
   text-align: left;
   list-style-type: none;
-  
 }
 
 .footer__list-item {
@@ -284,7 +283,6 @@
   line-height: 20px;
   text-align: left;
   list-style-type: none;
-  
 }
 
 .img-payment {
@@ -307,6 +305,10 @@
   height: 19px;
   margin: 0 10px 0 0;
   border-radius: 10px;
+}
+
+.radio__title {
+  vertical-align: middle;  
 }
 
 .radio__input_round:checked {
