@@ -6,7 +6,7 @@
 }
 
   .nav__element {
-    flex: 1 1 90px;
+    flex: 0 0 90px;
     height: 32px;
     background: linear-gradient(90deg, #9bdbff 0%, #c8ecff 40%);
     border-left: 1px solid  #33a0da;
