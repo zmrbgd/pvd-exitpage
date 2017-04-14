@@ -39,7 +39,7 @@
  *  |     |     |     |---form__label
  *  |     |     |     |---form__input
  *  |     |     |---form__caption
- *  |     |---radiobox
+ *  |     |---radio
  *  |     |---section__main-button
  *  |---footer
  *        |---footer__column[]

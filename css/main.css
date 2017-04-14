@@ -288,18 +288,14 @@
 }
 
 .img-payment {
-  height: 30px;
+  height: 20px;
   margin-top: 5px;
 }
 
-.text_14 {
+.radio__info {
   font-size: 14px;
   line-height: 16px;
   margin: 0;
-}
-
-.li_img {
-  font-size: 16px;
 }
 
 .radio-item {
@@ -312,7 +308,6 @@
   margin: 0 10px 0 0;
   border-radius: 10px;
 }
-
 
 .radio__input_round:checked {
   background: transparent url("../images/circle.svg") no-repeat 57% 60%;
