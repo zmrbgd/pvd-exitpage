@@ -5,7 +5,7 @@
 }
 
   .nav__element {
-    flex: 0 0 90px;
+    flex: 1 1 90px;
     height: 32px;
     background: linear-gradient(90deg, #9bdbff 0%, #c8ecff 40%);
     border-left: 1px solid  #33a0da;
@@ -18,7 +18,7 @@
     }
 
   .nav__rect {
-    flex: 1 1 33px;
+    flex: 0 0 33px;
   } 
 
     .nav__icon {
@@ -46,11 +46,11 @@
   padding-bottom: 7px;
 }
 
-.nav__title {
-  flex: 1;
-  position: relative;
-  color: #33a0da;
-  font-size: 15px;
-  line-height: 21px;
-  letter-spacing: .5px;
-}
+  .nav__title {
+    flex: 1;
+    position: relative;
+    color: #33a0da;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: .5px;
+  }
