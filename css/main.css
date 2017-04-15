@@ -309,23 +309,25 @@
 }
 
 .radio__input { 
-  max-width: 19px;
+  -webkit-appearance: none;
+  display: inline-block;
+  width: 19px;
   height: 19px;
-  margin: 0 10px 0 0;
+  margin-right: 10px;
   border-radius: 10px;
-  flex: 1;
+  border: 1px solid grey;
 }
 
-.radio__title {
-  flex: 1;
+.radio__input:checked{
+  background: url("../images/circle.svg") no-repeat center center;
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-right: 10spx;
+  outline: none;
 }
 
-.radio__label {
-}
-
-.radio__input_round:checked {
-  background: transparent url("../images/circle.svg") no-repeat 57% 60%;
-}
 
 .auswahl .checkbox {
   align-items: flex-start;
