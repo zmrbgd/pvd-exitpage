@@ -315,7 +315,7 @@
   height: 18px;
   margin-right: 10px;
   border-radius: 10px;
-  border: 1px solid grey;
+  border: 1px solid #979797;;
 }
 
 .radio__input:checked{
@@ -323,7 +323,7 @@
   width: 18px;
   height: 18px;
   border-radius: 10px;
-  border: 1px solid grey;
+  border: 1px solid #979797;;
   margin-right: 10spx;
   outline: none;
 }
