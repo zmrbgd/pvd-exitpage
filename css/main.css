@@ -311,8 +311,8 @@
 .radio__input { 
   -webkit-appearance: none;
   display: inline-block;
-  width: 19px;
-  height: 19px;
+  width: 18px;
+  height: 18px;
   margin-right: 10px;
   border-radius: 10px;
   border: 1px solid grey;
@@ -320,8 +320,8 @@
 
 .radio__input:checked{
   background: url("../images/circle.svg") no-repeat center center;
-  width: 19px;
-  height: 19px;
+  width: 18px;
+  height: 18px;
   border-radius: 10px;
   border: 1px solid grey;
   margin-right: 10spx;
