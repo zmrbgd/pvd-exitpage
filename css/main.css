@@ -328,11 +328,6 @@
   outline: none;
 }
 
-
-.auswahl .checkbox {
-  align-items: flex-start;
-}
-
 .sehen {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -341,5 +336,5 @@
 
 .sehen__link {
     position: relative;
-    top: -13px;
+    bottom: 13px;
 }
